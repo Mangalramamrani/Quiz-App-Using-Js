@@ -1,0 +1,70 @@
+/* General Reset */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "poppins", sans-serif;
+    background-color: #0b1145;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Quiz Container */
+.quiz-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.question {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Answer Buttons */
+.answers {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.answer {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: "poppins", sans-serif;
+    transition: 0.4s;
+}
+.answer:hover{
+    background-color: #666;
+}
+.selected {
+    background-color: #333;
+    color: #fff;
+}
